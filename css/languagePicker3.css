@@ -28,6 +28,11 @@ html, body {
     font-size: 5em;
     font-family: caudex;
     font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+#linkApp {
+    text-decoration: none;
 }
 
 #links {
