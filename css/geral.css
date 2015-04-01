@@ -1,0 +1,131 @@
+html, body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #b2b9cf;
+    font-family: alegreya;
+}
+
+#expRedpg {
+    display: block;
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 1px #000;
+    margin-top: 35px;
+}
+
+#expRedpg > p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+#expRedpg > p:first-child {
+    margin-top: 0px;
+}
+
+#panel {
+    display: block;
+    padding: 5px;
+    background-color: #0e1875;
+    color: #ffffff;
+    border-bottom: solid 2px #060d53;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 22px;
+}
+
+#panel img {
+    vertical-align: middle;
+}
+
+#panel > .left {
+    float: left;
+    line-height: 22px;
+}
+
+#panel > .right {
+    float: right;
+    line-height: 22px;
+}
+
+#panel > .center {
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 22px;
+}
+
+#panel > .center > a {
+    color: #ffffff
+}
+
+#panel > .center > a:hover {
+    color: #e2e3ec
+}
+
+#links > a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    opacity: 0.6;
+}
+
+#links > a:hover {
+    opacity: 1;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.unselectable:hover {
+    cursor: default;
+}
+
+.selectable {
+    -webkit-user-select: auto;
+    -khtml-user-select: auto;
+    -moz-user-select: auto;
+    -o-user-select: auto;
+    user-select: auto;
+}
+
+.selectable:hover {
+    cursor: initial;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #b9b9b9;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #626262;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}

@@ -5,6 +5,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     background-color: #b2b9cf;
+    min-width: 450px;
 }
 
 #table {
@@ -38,6 +39,11 @@ html, body {
     width: 24px;
     height: 24px;
     margin-left: 20px;
+    opacity: 0.6;
+}
+
+#links > a:hover {
+    opacity: 1;
 }
 
 #links > a:first-child {
