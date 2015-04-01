@@ -18,6 +18,7 @@ html, body {
     padding-bottom: 15px;
     border: solid 1px #000;
     margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 #expRedpg > p {
