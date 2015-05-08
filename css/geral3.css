@@ -5,7 +5,11 @@ html, body {
     margin: 0px;
     padding: 0px;
     background-color: #b2b9cf;
+    background-color: #eaedf6;
     font-family: alegreya;
+    background-image: url("../img/backgroundCute.png");
+    background-repeat: repeat-x;
+    background-position: center top;
 }
 
 #expRedpg {
@@ -37,6 +41,9 @@ html, body {
     display: block;
     padding: 5px;
     background-color: #0e1875;
+    background-image: url("../img/backgroundCuteTop.png");
+    background-repeat: repeat-y;
+    background-position: center top;
     color: #ffffff;
     border-bottom: solid 2px #060d53;
     position: fixed;
